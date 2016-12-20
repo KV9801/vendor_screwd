@@ -17,6 +17,10 @@ ifeq (screwd_angler,$(TARGET_PRODUCT))
     PRODUCT_COPY_FILES += \
         vendor/screwd/prebuilt/bootanimation/angler_bootanimation.zip:system/media/bootanimation.zip
 endif
+ifeq (screwd_bacon,$(TARGET_PRODUCT))
+    PRODUCT_COPY_FILES += \
+        vendor/screwd/prebuilt/bootanimation/bacon_bootanimation.zip:system/media/bootanimation.zip
+endif
 ifeq (screwd_bullhead,$(TARGET_PRODUCT))
     PRODUCT_COPY_FILES += \
         vendor/screwd/prebuilt/bootanimation/bullhead_bootanimation.zip:system/media/bootanimation.zip

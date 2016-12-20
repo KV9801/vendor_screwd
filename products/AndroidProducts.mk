@@ -16,6 +16,9 @@
 ifeq (screwd_angler,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_angler.mk
 endif
+ifeq (screwd_bacon,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_bacon.mk
+endif
 ifeq (screwd_bullhead,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/screwd_bullhead.mk
 endif
